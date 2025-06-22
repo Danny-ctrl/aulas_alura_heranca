@@ -1,4 +1,6 @@
-public class Filme extends Titulo{
+package br.com.estudo.oop.alura.modelos;
+
+public class Filme extends Titulo {
     private String diretor;
 
     public String getDiretor() {

@@ -1,3 +1,5 @@
+package br.com.estudo.oop.alura.modelos;
+
 public class Titulo {
         private String nome;
         private int anoDeLancamento;
