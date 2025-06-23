@@ -1,4 +1,5 @@
 package br.com.estudo.oop.alura.modelos;
+import br.com.estudo.oop.alura.calculo.CalculadoraDeTempo;
 
 public class Principal {
     public static void main(String[] args) {
@@ -23,5 +24,21 @@ public class Principal {
         supernatural.setMinutosPorEpisodio(50);
         System.out.println("Nome: " + supernatural.getNome());
         System.out.println("Duração em minutos para maratonar supernatural: " + supernatural.getDuracaoEmMinutos());
+
+
+        Filme favorito2 = new Filme();
+        favorito2.setNome("Os vingadores:Ultimato");
+        favorito2.setAnoDeLancamento(2019);
+        favorito2.setDuracaoEmMinutos(200);
+
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(favorito);
+        calculadora.inclui(favorito2);
+        calculadora.inclui(supernatural);
+        System.out.println(calculadora.getTempoTotal());
+
+
+
     }
 }
