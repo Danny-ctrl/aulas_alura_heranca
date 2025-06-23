@@ -15,6 +15,13 @@ public class Principal {
         System.out.println(favorito.getTotalDeAvaliacao());
         System.out.println(favorito.pegaMedia());
 
-
+        Serie supernatural = new Serie();
+        supernatural.setNome("Supernatural");
+        supernatural.setAnoDeLancamento(2005);
+        supernatural.setTemporadas(15);
+        supernatural.setEpisodiosPorTemporada(22);
+        supernatural.setMinutosPorEpisodio(50);
+        System.out.println("Nome: " + supernatural.getNome());
+        System.out.println("Duração em minutos para maratonar supernatural: " + supernatural.getDuracaoEmMinutos());
     }
 }
