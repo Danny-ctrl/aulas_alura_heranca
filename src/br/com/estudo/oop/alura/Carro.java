@@ -33,6 +33,7 @@ public class Carro {
                 menorPreco = preco;
             }
         }
+        System.out.println("Menor preço: "+ menorPreco);
     }
 
     public void exibirMaiorPreco() {
