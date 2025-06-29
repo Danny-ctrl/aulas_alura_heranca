@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.modelos;
+package br.com.estudo.oop.alura.filme;
 
 public class Serie extends Titulo {
     private int temporadas;

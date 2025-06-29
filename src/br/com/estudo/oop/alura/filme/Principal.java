@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.modelos;
+package br.com.estudo.oop.alura.filme;
 import br.com.estudo.oop.alura.calculo.CalculadoraDeTempo;
 
 public class Principal {
