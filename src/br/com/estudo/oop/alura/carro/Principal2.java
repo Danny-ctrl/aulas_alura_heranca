@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.modelos;
+package br.com.estudo.oop.alura.carro;
 
 public class Principal2 {
     public static void main(String[] args) {

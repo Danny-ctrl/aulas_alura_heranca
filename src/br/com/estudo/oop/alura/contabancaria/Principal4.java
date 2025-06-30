@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.conta_bancaria;
+package br.com.estudo.oop.alura.contabancaria;
 
 public class Principal4 {
     public static void main(String[] args) {

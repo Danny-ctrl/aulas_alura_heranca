@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.modelos;
+package br.com.estudo.oop.alura.carro;
 
 public class Carro {
     private String modelo;

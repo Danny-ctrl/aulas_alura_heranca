@@ -1,4 +1,4 @@
-package br.com.estudo.oop.alura.modelos;
+package br.com.estudo.oop.alura.carro;
 
 public class ModeloCarro extends Carro {
     public ModeloCarro(String modelo,double preco1, double preco2, double preco3) {
