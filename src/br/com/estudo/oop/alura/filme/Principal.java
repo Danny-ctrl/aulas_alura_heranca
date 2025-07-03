@@ -1,5 +1,6 @@
 package br.com.estudo.oop.alura.filme;
 import br.com.estudo.oop.alura.calculo.CalculadoraDeTempo;
+import br.com.estudo.oop.alura.calculo.FiltroRecomendacao;
 
 public class Principal {
     public static void main(String[] args) {
@@ -38,7 +39,14 @@ public class Principal {
         calculadora.inclui(supernatural);
         System.out.println(calculadora.getTempoTotal());
 
+        FiltroRecomendacao filtro = new  FiltroRecomendacao();
+        filtro.filtra(favorito);
 
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(supernatural);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
 
     }
 }
