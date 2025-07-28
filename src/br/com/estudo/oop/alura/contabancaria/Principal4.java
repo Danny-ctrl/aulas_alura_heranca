@@ -12,5 +12,10 @@ public class Principal4 {
         cc.cobrarTarifaMensal();
         cc.consultarSaldo();
 
+
+        ConversorMoeda conversor = new ConversorMoeda();
+        double valorConvertido = conversor.converterDolarParaReal(150);
+        cc.depositar(valorConvertido);
+        cc.consultarSaldo();
     }
 }
